@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgb(233, 141, 67), rgb(193, 247, 106));
+  color: white;
+}
+
+div {
+  margin: 1rem;
+}
+.dropbtn {
+  margin-left: 16rem;
+  margin-top: -5rem;
+  margin-bottom: -10rem;
+}
+.dropbtn {
+  font-size: 3rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+  width: 4rem;
+}
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: black;
+  color: white;
+}
+
+#myInput {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#myInput:focus {
+  outline: 3px solid #ddd;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: 3.5rem;
+  border: 2px solid white;
+  min-width: 17rem;
+  min-height: 28rem;
+  overflow: auto;
+  background: black;
+  font-size: 2rem;
+  text-align: right;
+  padding-right: 1rem;
+  z-index: 1;
+}
+.dropdown-content a {
+  border-bottom: 0px solid transparent;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  border-bottom: 3px solid white;
+}
+
+.dropdown-content #myInput {
+  width: 100%;
+  height: 3rem;
+}
+
+#active {
+  border-right: 10px solid white;
+  padding-right: 5rem;
+}
+
+.show {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  margin: 0.5rem 0 0.5rem;
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#list {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#listItem:hover {
+  color: black;
+}
+
+#number {
+  font-size: 4rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#number:hover {
+  font-size: 6rem;
+}
+
+#quoteTitle {
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

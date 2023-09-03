@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link rel="stylesheet" href="/css/home.css" /> -->
+    <link rel="stylesheet" href="/css/quotes.css" />
+    <title>Love Quotes</title>
+  </head>
+  <body>
+    <div>
+      <div class="dropdown">
+        <div id="topmenu">
+          <a href="/index.html" class="back"><b><</b></a>
+          <button onclick="myFunction()" class="dropbtn">...</button>
+        </div>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="/index.html">Back home </a>
+          <br />
+          <a href="#">Favorites </a>
+          <br />
+          <a href="#">My Quotes </a>
+          <br />
+        </div>
+      </div>
+      <div class="quotebox">
+        <p id="quoteOutput"></p>
+        <p id="authorOutput"></p>
+      </div>
+      <button onclick="generateQuote();" id="newQuote">New Quote</button>
+      <div class="footer">
+        <div class="footer1">
+          <i>00</i>
+          <i>00</i>
+        </div>
+        <p>1/12</p>
+      </div>
+    </div>
+
+    <script src="/quotes.js">
+
+      function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+    </script>
+  </body>
+</html>

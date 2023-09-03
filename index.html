@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/home.css" />
+    <title>Quote of day</title>
+  </head>
+  <body>
+    <div>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">:::</button>
+
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html" id="active">Home </a>
+          <br />
+          <a href="html/love.html">Love </a>
+          <br />
+          <a href="#">Work </a>
+          <br />
+          <a href="#">political </a>
+          <br />
+          <a href="#">Friends </a>
+          <br />
+          <input
+            type="search"
+            name=""
+            placeholder="Search a Word"
+            id="myInput"
+            onkeyup="filterFunction()"
+          />
+        </div>
+      </div>
+
+      <h1>My Quotes</h1>
+      <div id="list">
+        <a id="listItem" href="">
+          <p id="number">17</p>
+          <p id="quoteTitle">Quotes for Love</p>
+        </a>
+        <br />
+        <hr />
+        <br />
+        <a id="listItem" href="">
+          <p id="number">06</p>
+          <p id="quoteTitle">political Quotes</p>
+        </a>
+        <br />
+        <hr />
+        <br />
+        <a id="listItem" href="">
+          <p id="number">24</p>
+          <p id="quoteTitle">Quotes from friends</p>
+        </a>
+        <br />
+        <hr />
+        <br />
+        <a id="listItem" href="">
+          <p id="number">12</p>
+          <p id="quoteTitle">Quotes for Poems</p>
+        </a>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // function filterFunction() {
+      //   var input, filter, ul, li, a, i;
+      //   input = document.getElementById("myInput");
+      //   filter = input.value.toUpperCase();
+      //   div = document.getElementById("myDropdown");
+      //   a = div.getElementsByTagName("a");
+      //   for (i = 0; i < a.length; i++) {
+      //     txtValue = a[i].textContent || a[i].innerText;
+      //     if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      //       a[i].style.display = "";
+      //     } else {
+      //       a[i].style.display = "none";
+      //     }
+      //   }
+      // }
+    </script>
+  </body>
+</html>

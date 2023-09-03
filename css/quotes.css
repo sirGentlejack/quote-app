@@ -1,0 +1,120 @@
+body {
+  background: linear-gradient(rgb(233, 141, 67), rgb(193, 247, 106));
+  color: black;
+  background-repeat: repeat;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#topmenu {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.back {
+  font-size: 3rem;
+  width: 2rem;
+  cursor: pointer;
+  color: white;
+}
+.dropbtn {
+  margin-left: 16rem;
+  margin-top: -15rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-size: 3rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+  width: 4rem;
+}
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: white;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: 11rem;
+  border: 2px solid white;
+  min-width: 10rem;
+  min-height: 8rem;
+  overflow: auto;
+  background: rgb(233, 141, 67);
+  font-size: 1.5rem;
+  text-align: right;
+  padding-right: 1rem;
+  z-index: 1;
+}
+.dropdown-content a {
+  border-bottom: 0px solid transparent;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  border-bottom: 3px solid white;
+}
+
+.dropdown-content #myInput {
+  width: 100%;
+  height: 3rem;
+}
+
+.show {
+  display: block;
+}
+#newQuote {
+  width: 6rem;
+  height: 3rem;
+  background-color: rgb(167, 137, 5);
+  color: black;
+  font-weight: bold;
+  margin-left: 0.7rem;
+}
+
+#newQuote:hover {
+  background: rgb(248, 227, 109);
+}
+
+.quotebox {
+  height: 65vh;
+  display: grid;
+  align-items: center;
+  margin-left: 0.7rem;
+  background-color: whitesmoke;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+#quoteOutput {
+  font-size: 3rem;
+}
+
+#authorOutput {
+  font-size: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+  padding: 0.2rem;
+  align-items: center;
+  color: black;
+  font-weight: 700;
+}
+
+.footer1 i {
+  margin: 0 2rem 0 2rem;
+}
