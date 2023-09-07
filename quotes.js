@@ -15,6 +15,14 @@ var arrayOfQuotes = [
     author: "King B-boy",
     quotes: "I love wat i do.",
   },
+    
+  
+  {
+    author: "Lemo B",
+    quotes: "simplicity is key.",
+  },
+
+  
   {
     author: "Lemo B",
     quotes: "simplicity is key.",
